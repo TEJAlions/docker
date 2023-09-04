@@ -14,7 +14,7 @@ const CPUs = require('os').cpus().length;
  * Lightship adds readiness and liveness prob endpoints
  * for kubernetes healthchecks https://github.com/gajus/lightship
  */
-const ls = createLightship();
+// const ls = createLightship();
 
 /**
  * If the cluster module is avaible
