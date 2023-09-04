@@ -10,6 +10,7 @@ const connect = () => mongoose.connect(mongodbUrl, {
     useMongoClient: true
 });
 const close = () => mongoose.connection.close();
+const hi = 'hi'
 
 module.exports = {
     connect,
